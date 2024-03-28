@@ -1,0 +1,42 @@
+body {
+  background-image: url("背景.jpg");
+}
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 8px green;
+}
+div {
+  background-color: hsl(147, 50%, 47%);
+  height: 80px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color:  hsl(155, 50%, 30%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a:hover {
+  background-color: #333;
+}
